@@ -1,0 +1,99 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "Fluent2-CY26SU08",
+      "reportVersionAtImport": {
+        "visual": "2.12.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "Fluent2-CY26SU08",
+          "path": "BaseThemes/Fluent2-CY26SU08.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Avg_Sales07988776243742157.png",
+          "path": "Avg_Sales07988776243742157.png",
+          "type": "Image"
+        },
+        {
+          "name": "background_kpi4244335970466785.png",
+          "path": "background_kpi4244335970466785.png",
+          "type": "Image"
+        },
+        {
+          "name": "background_kpi5156210562898289.png",
+          "path": "background_kpi5156210562898289.png",
+          "type": "Image"
+        },
+        {
+          "name": "Items20595512034979846.png",
+          "path": "Items20595512034979846.png",
+          "type": "Image"
+        },
+        {
+          "name": "rating_(1)8655072316310717.png",
+          "path": "rating_(1)8655072316310717.png",
+          "type": "Image"
+        },
+        {
+          "name": "Sales9840378329644477.png",
+          "path": "Sales9840378329644477.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}
